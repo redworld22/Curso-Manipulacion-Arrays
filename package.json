@@ -1,0 +1,27 @@
+{
+  "name": "curso-manipulacion-arrays",
+  "version": "1.0.0",
+  "description": "Archivos del Curso de Manipulación de Arrays de Platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redworld22/Curso-Manipulacion-Arrays.git"
+  },
+  "keywords": [
+    "Metodos",
+    "Arrays",
+    "JavaScript"
+  ],
+  "author": "Red Robles <redworld22@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redworld22/Curso-Manipulacion-Arrays/issues"
+  },
+  "homepage": "https://github.com/redworld22/Curso-Manipulacion-Arrays#readme",
+  "dependencies": {
+    "http-server": "14.1.1"
+  }
+}

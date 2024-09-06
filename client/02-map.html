@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Tareas para el día de hoy!</h1>
+        <div id="app"></div>
+    </main>
+    
+    <script>
+        const products = [
+            { title: "Yaroa", price: 320 },
+            { title: "Hot Dog", price: 200 },
+            { title: "Hamburger", price: 400 },
+            { title: "Pizza", price: 600 }
+        ]
+        const app = document.getElementById("app");
+        
+        const list = products.map(product =>{
+            return `<li>${product.title} - ${product.price}</li>`
+        })
+        console.log(list);        
+        app.innerHTML = list.join("")
+    </script>
+</body>
+</html>

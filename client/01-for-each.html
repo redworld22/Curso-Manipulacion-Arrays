@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <h1>Tareas para el día de hoy!</h1>
+        <div id="app"></div>
+    </main>
+    
+    <script>
+        const doList = [
+            { title: "Leer", done: false },
+            { title: "Inglés", done: true },
+            { title: "Salsa", done: false },
+            { title: "Programación", done: true }
+        ]
+        const app = document.getElementById("app");
+        
+        doList.forEach(({title, done}) =>{
+            app.innerHTML += `<input type="checkbox" id='${title}' name='${title}' ${done && 'checked'}/><label for='${title}'>${title}</label>`
+        })
+    </script>
+</body>
+</html>
