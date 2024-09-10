@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/redworld22/Curso-Manipulacion-Arrays#readme",
   "dependencies": {
+    "date-fns": "^3.6.0",
     "http-server": "14.1.1"
   }
 }
